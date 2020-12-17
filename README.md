@@ -1,6 +1,6 @@
 Data and Code for paper *Leveraging Table Content for Zero-shot Text-to-SQL with Meta-Learning* is available for research purposes.
 
-#ESQL Dataset
+# ESQL Dataset
 ESQL is a Chinese single-table text-to-SQL dataset. Its original version contains 17 tables, these tables are obtained from the real electric energy field, such as electricity mechanism, electricity sales and prices, etc.
 
 ### Desensitization
@@ -209,7 +209,7 @@ The question numbers of the dataset are as following table:
 | --------| :---:  | :----: | :---:  | :-----: |
 | 10,000  | 1,000  |   443  | 2,000  | 860    | 
 
-#MC-SQL
+# MC-SQL
 MC-SQL is a semantic parsing model used to transform natural language questions into corresponding SQL queries in the single-table scenario.
 The implementation of our proposed MC-SQL is based on the [SQLova](https://github.com/naver/sqlova) ([Hwang et al., 2019](https://arxiv.org/pdf/1902.01069.pdf))
 
