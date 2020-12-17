@@ -51,10 +51,10 @@ The fields represent the following:
   * `sel`: the numerical index list of the columns that are being selected.
   * `agg`: the numerical index list of the aggregation operators that are being used.
   * `cond_conn_op`:  the numerical index of connection operators in conditions, such as **AND** or **OR**.
-  * `conds`: a list of quintuples (`agg_index`, `column_index`, `operator_index`, `value_1`, `value_2`) where: 
+  * `conds`: a list of quintuples (`agg_index`, `operator_index`, `column_index`, `value_1`, `value_2`) where: 
     * `agg_index`: the numerical index list of the aggregation operators that are being used in **WHERE**-clause.
-    * `column_index`: the numerical index of the condition column that is being used.
     * `operator_index`: the numerical index of the condition operator that is being used.
+    * `column_index`: the numerical index of the condition column that is being used.
     * `value_1`: the first comparison value for the condition, in either string or float type.
     * `value_2`: the second comparison value for the condition in float type. It is used for **BETWEEN** key word. (not used)
   * `ord_by`: a list of triplets (`order_index`, `column_index`, `limit`) where: 
@@ -207,7 +207,7 @@ The question numbers of the dataset are as following table:
 
 | train   | dev    | dev_zs | test   | test_zs |
 | --------| :---:  | :----: | :---:  | :-----: |
-| 10,000  | 1,000  |   443  | 2,000  | 860    | 
+| 10,000  | 1,000  |   494  | 2,000  | 972    | 
 
 # MC-SQL
 MC-SQL is a semantic parsing model used to transform natural language questions into corresponding SQL queries in the single-table scenario.
